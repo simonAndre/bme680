@@ -9,6 +9,6 @@ CSRC += $(LIBS)/BME680_driver/bme680.c
 
 
 main:	$(CSRC)	
-	g++ -std=gnu++11 -g -obmetest -fpermissive -I $(CSRC)
+	g++ -std=gnu++11 -g -obmetest -fpermissive -I $(INCLUDEDIR1)/BME680_driver $(CSRC)
 
 
