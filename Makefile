@@ -13,6 +13,6 @@ CSRC += $(EMONSANLIBS)/gateway.c
 
 
 main:	$(CSRC)	
-	g++ -std=gnu++11 -g -obmetest -fpermissive -I $(INCLUDEDIR1)/BME680_driver $(EMONSANLIBS) $(CSRC)
+	g++ -std=gnu++11 -g -obmetest -fpermissive -I $(INCLUDEDIR1)/BME680_driver -I $(EMONSANLIBS) $(CSRC)
 
 
