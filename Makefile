@@ -4,8 +4,8 @@ INCLUDEDIR1 := $(LIBS)
 
 CSRC  =  main.c                   # The main program
 CSRC += $(LIBS)/BME680_driver/bme680.c  
-include "$(LIBS)/BME680_driver/bme680_defs.h"
-include "$(LIBS)/BME680_driver/bme680.h"
+#include "$(LIBS)/BME680_driver/bme680_defs.h"
+#include "$(LIBS)/BME680_driver/bme680.h"
 
 
 main:	$(CSRC)	
